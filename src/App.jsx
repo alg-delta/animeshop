@@ -47,7 +47,7 @@ function App() {
   };
   return (
     <div className="App">
-      <BrowserRouter base="/animeshop/">
+      <BrowserRouter basename="/animeshop/">
         <Header />
         <Routes>
           <Route
