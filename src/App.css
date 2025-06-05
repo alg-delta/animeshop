@@ -1,0 +1,137 @@
+#root {
+  text-align: center;
+}
+
+.go1,
+.go2,
+.go3,
+.go4 {
+  font-size: 25px;
+  padding: 10px 20px;
+  border: 5px solid purple;
+  color: skyblue;
+  background-color: blue;
+  margin: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
+  box-shadow: inset 0 0 0 0 purple;
+  transition: all 0.7s;
+}
+
+.go1:hover {
+  /* box-shadow: inset 0 100px 0 0 #d80286; */
+  box-shadow: inset 0 20px 0 0 purple, inset 0 50px 0 0 #d80286;
+}
+
+.go2:hover {
+  box-shadow: inset 400px 0 0 0 #d80286;
+}
+
+.go3:hover {
+  box-shadow: inset 400px 50px 0 0 #d80286;
+}
+
+.go4:hover {
+  box-shadow: inset 0 0 0px 50px #d80286;
+}
+
+.variant {
+  width: 350px;
+  height: 100px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  transition: all 0.5s;
+}
+
+.activeTest {
+  background-color: rgb(200, 200, 0);
+}
+
+.vetal {
+  font-size: 25px;
+  padding: 15px 30px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  transition: all 0.5s;
+}
+
+.vetal:hover {
+  box-shadow: inset 0 8.5px 0 0 red, inset 0 17px 0 0 orange,
+    inset 0 25.5px 0 0 yellow, inset 0 36px 0 0 green,
+    inset 0 47px 0 0 rgb(0, 229, 255), inset 0 54px 0 0 blue,
+    inset 0 67px 0 0 purple;
+}
+
+.variant:hover {
+  box-shadow: inset 0 16px 0 0 red, inset 0 34px 0 0 orange,
+    inset 0 49px 0 0 yellow, inset 0 67px 0 0 green,
+    inset 0 76px 0 0 rgb(0, 229, 255), inset 0 83px 0 0 blue,
+    inset 0 100px 0 0 purple;
+}
+
+.score {
+  height: 100px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.cardTest {
+  width: 70px;
+  height: 70px;
+  background-color: yellow;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  border: 2px solid purple;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  gap: 10px;
+  width: 330px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.win {
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.winn {
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pensil {
+  height: 80px;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
